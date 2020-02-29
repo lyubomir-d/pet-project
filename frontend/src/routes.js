@@ -21,25 +21,19 @@ export default function Routes() {
                 <Pages.About />
             </Route>
 
-            <Route path="/friends">
-                <Switch>
-                    <Route path="/friends/add">
-                        <Pages.FriendAdd />
-                    </Route>
-                    <Route path="/friends/">
-                        <Pages.Friends />
-                    </Route>
-                    <Route>
-                        <Redirect to="/friends/" />
-                    </Route>
-                </Switch>
+            <Route exact path="/friends/">
+                <Pages.Friends />
+            </Route>
+
+            <Route path="/friends/add">
+                <Pages.FriendAdd />
             </Route>
 
             <Route path="/contacts">
                 <Pages.Contacts />
             </Route>
 
-            <Route path="/">
+            <Route exact path="/">
                 <Pages.Main />
             </Route>
         </Switch>
