@@ -1,0 +1,60 @@
+@import "./colors";
+@import "./media";
+
+.content {
+  height: 100%;
+  background: $grey-1;
+}
+
+.main {
+  width: 100%;
+  margin: 0 auto 7.5rem auto;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.page {
+  width: 100%;
+  min-height: calc(100vh - 15rem);
+
+  padding: 2.5rem 0;
+
+  background: $white;
+}
+
+.shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+}
+
+.island {
+  margin: .5rem 0;
+  padding: 2rem;
+  background: $white;
+}
+
+.btn-edit {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+}
+
+@media (min-width: $breakpoint-sm) {
+  .main {
+    width: 80%;
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .container {
+    width: 80%;
+  }
+}

@@ -1,0 +1,18 @@
+@import "../../../assets/theme/index";
+
+.aside {
+  position: fixed;
+  top: 0;
+  left: -25rem;
+
+  height: 100vh;
+  width: 25rem;
+  overflow: scroll;
+  padding: 5rem 1.5rem 3rem 1.5rem;
+
+  background: #eee;
+
+  z-index: 10;
+
+  transition: .3s;
+}

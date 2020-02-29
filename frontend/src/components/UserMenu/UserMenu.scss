@@ -1,0 +1,54 @@
+@import "../../../assets/theme/index";
+
+.user-menu {
+  position: relative;
+
+  &__btn {
+
+    & img {
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+
+  &__list {
+    position: absolute;
+    top: 100%;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    width: auto;
+    height: auto;
+
+    margin: 0;
+    padding: 2.5rem;
+    list-style-type: none;
+
+    background: $white;
+
+    z-index: 2;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+    height: 1em;
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__icon {
+    width: 100%;
+    height: 100%;
+  }
+
+}
+

@@ -1,0 +1,27 @@
+@import "../../../assets/theme/index";
+
+.all-friends__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.all-friends__add {
+  position: fixed;
+  bottom: 10rem;
+  right: 2.5rem;
+
+  width: 4rem;
+  height: 4rem;
+
+  padding: 1rem;
+
+  border-radius: 50%;
+
+  background: $gradient;
+  box-shadow: $shadow;
+
+  & img {
+    width: 100%;
+  }
+}

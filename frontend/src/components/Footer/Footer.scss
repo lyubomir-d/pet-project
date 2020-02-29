@@ -1,0 +1,15 @@
+@import "../../../assets/theme/index";
+
+.footer-wrapper {
+  grid-row-start: 3;
+  grid-row-end: 4;
+
+  padding: 1.5rem 0;
+
+  background: $white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}

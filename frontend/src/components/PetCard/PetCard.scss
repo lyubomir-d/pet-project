@@ -1,0 +1,12 @@
+@import "../../../assets/theme/index";
+
+.pet-card {
+  padding: 2.5rem 0;
+  background: #fff;
+
+  & .name {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+  }
+}

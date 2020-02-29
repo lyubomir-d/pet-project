@@ -1,0 +1,30 @@
+@import "colors";
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: .8rem 1.2rem;
+  margin: 0;
+
+  border: none;
+  background: inherit;
+
+  font-size: inherit;
+  white-space: nowrap;
+  color: $black;
+
+  cursor: pointer;
+
+  &[disabled] {
+    opacity: .3;
+  }
+}
+
+.btn--link {
+
+  &[disabled] {
+    color: $grey-2;
+  }
+}
